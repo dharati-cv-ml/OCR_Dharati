@@ -1,0 +1,7 @@
+pillow>=10,<13
+pytesseract>=0.3.10,<1
+fastapi>=0.115,<1
+python-multipart>=0.0.9,<1
+uvicorn>=0.30,<1
+opencv-python>=4.9,<5
+zxing-cpp>=2.2,<4

@@ -1,0 +1,16 @@
+﻿.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.vscode/
+.env
+.env.*
+!.env.example
+*.sqlite
+*.sqlite3
+*.db
+*.db-wal
+*.db-shm
+robust_evaluation.json
+track_trace_evaluation.json

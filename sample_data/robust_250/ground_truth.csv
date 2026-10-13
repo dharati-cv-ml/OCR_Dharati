@@ -1,0 +1,251 @@
+filename,source_filename,variant,expected_status,printed_product_code,printed_batch,printed_expiry,barcode_payload,symbology,barcode_should_decode,seed
+test_001_lighting.png,package_01_qr.png,lighting,PASS,PRD000001,B00001,2028-02,SKU:PRD000001;LOT:B00001;EXP:2028-02,QR,true,426383
+test_001_blur.png,package_01_qr.png,blur,PASS,PRD000001,B00001,2028-02,SKU:PRD000001;LOT:B00001;EXP:2028-02,QR,true,8284
+test_001_rotation.png,package_01_qr.png,rotation,PASS,PRD000001,B00001,2028-02,SKU:PRD000001;LOT:B00001;EXP:2028-02,QR,true,827392
+test_001_wrong_batch.png,package_01_qr.png,wrong_batch,REVIEW,PRD000001,WRONG99,2028-02,SKU:PRD000001;LOT:B00001;EXP:2028-02,QR,true,52888
+test_001_damaged_code.png,package_01_qr.png,damaged_code,REVIEW,PRD000001,B00001,2028-02,SKU:PRD000001;LOT:B00001;EXP:2028-02,QR,false,1491
+test_002_lighting.png,package_02_datamatrix.png,lighting,PASS,PRD000002,B00002,2029-03,SKU:PRD000002;LOT:B00002;EXP:2029-03,Data Matrix,true,45232
+test_002_blur.png,package_02_datamatrix.png,blur,PASS,PRD000002,B00002,2029-03,SKU:PRD000002;LOT:B00002;EXP:2029-03,Data Matrix,true,589183
+test_002_rotation.png,package_02_datamatrix.png,rotation,PASS,PRD000002,B00002,2029-03,SKU:PRD000002;LOT:B00002;EXP:2029-03,Data Matrix,true,856534
+test_002_wrong_expiry.png,package_02_datamatrix.png,wrong_expiry,REVIEW,PRD000002,B00002,2033-01,SKU:PRD000002;LOT:B00002;EXP:2029-03,Data Matrix,true,797451
+test_002_damaged_code.png,package_02_datamatrix.png,damaged_code,REVIEW,PRD000002,B00002,2029-03,SKU:PRD000002;LOT:B00002;EXP:2029-03,Data Matrix,false,556899
+test_003_lighting.png,package_03_qr.png,lighting,PASS,PRD000003,B00003,2027-04,SKU:PRD000003;LOT:B00003;EXP:2027-04,QR,true,701285
+test_003_blur.png,package_03_qr.png,blur,PASS,PRD000003,B00003,2027-04,SKU:PRD000003;LOT:B00003;EXP:2027-04,QR,true,71957
+test_003_rotation.png,package_03_qr.png,rotation,PASS,PRD000003,B00003,2027-04,SKU:PRD000003;LOT:B00003;EXP:2027-04,QR,true,988139
+test_003_wrong_batch.png,package_03_qr.png,wrong_batch,REVIEW,PRD000003,WRONG99,2027-04,SKU:PRD000003;LOT:B00003;EXP:2027-04,QR,true,233391
+test_003_damaged_code.png,package_03_qr.png,damaged_code,REVIEW,PRD000003,B00003,2027-04,SKU:PRD000003;LOT:B00003;EXP:2027-04,QR,false,412959
+test_004_lighting.png,package_04_datamatrix.png,lighting,PASS,PRD000004,B00004,2028-05,SKU:PRD000004;LOT:B00004;EXP:2028-05,Data Matrix,true,52665
+test_004_blur.png,package_04_datamatrix.png,blur,PASS,PRD000004,B00004,2028-05,SKU:PRD000004;LOT:B00004;EXP:2028-05,Data Matrix,true,179091
+test_004_rotation.png,package_04_datamatrix.png,rotation,PASS,PRD000004,B00004,2028-05,SKU:PRD000004;LOT:B00004;EXP:2028-05,Data Matrix,true,241097
+test_004_wrong_expiry.png,package_04_datamatrix.png,wrong_expiry,REVIEW,PRD000004,B00004,2033-01,SKU:PRD000004;LOT:B00004;EXP:2028-05,Data Matrix,true,583323
+test_004_damaged_code.png,package_04_datamatrix.png,damaged_code,REVIEW,PRD000004,B00004,2028-05,SKU:PRD000004;LOT:B00004;EXP:2028-05,Data Matrix,false,931799
+test_005_lighting.png,package_05_qr_missing_exp.png,lighting,REVIEW,PRD000005,B00005,,SKU:PRD000005;LOT:B00005;EXP:2029-06,QR,true,923975
+test_005_blur.png,package_05_qr_missing_exp.png,blur,REVIEW,PRD000005,B00005,,SKU:PRD000005;LOT:B00005;EXP:2029-06,QR,true,586956
+test_005_rotation.png,package_05_qr_missing_exp.png,rotation,REVIEW,PRD000005,B00005,,SKU:PRD000005;LOT:B00005;EXP:2029-06,QR,true,244312
+test_005_wrong_batch.png,package_05_qr_missing_exp.png,wrong_batch,REVIEW,PRD000005,WRONG99,,SKU:PRD000005;LOT:B00005;EXP:2029-06,QR,true,78306
+test_005_damaged_code.png,package_05_qr_missing_exp.png,damaged_code,REVIEW,PRD000005,B00005,,SKU:PRD000005;LOT:B00005;EXP:2029-06,QR,false,636814
+test_006_lighting.png,package_06_datamatrix.png,lighting,PASS,PRD000006,B00006,2027-07,SKU:PRD000006;LOT:B00006;EXP:2027-07,Data Matrix,true,573192
+test_006_blur.png,package_06_datamatrix.png,blur,PASS,PRD000006,B00006,2027-07,SKU:PRD000006;LOT:B00006;EXP:2027-07,Data Matrix,true,949228
+test_006_rotation.png,package_06_datamatrix.png,rotation,PASS,PRD000006,B00006,2027-07,SKU:PRD000006;LOT:B00006;EXP:2027-07,Data Matrix,true,687765
+test_006_wrong_expiry.png,package_06_datamatrix.png,wrong_expiry,REVIEW,PRD000006,B00006,2033-01,SKU:PRD000006;LOT:B00006;EXP:2027-07,Data Matrix,true,331116
+test_006_damaged_code.png,package_06_datamatrix.png,damaged_code,REVIEW,PRD000006,B00006,2027-07,SKU:PRD000006;LOT:B00006;EXP:2027-07,Data Matrix,false,458690
+test_007_lighting.png,package_07_qr.png,lighting,PASS,PRD000007,B00007,2028-08,SKU:PRD000007;LOT:B00007;EXP:2028-08,QR,true,120179
+test_007_blur.png,package_07_qr.png,blur,PASS,PRD000007,B00007,2028-08,SKU:PRD000007;LOT:B00007;EXP:2028-08,QR,true,771449
+test_007_rotation.png,package_07_qr.png,rotation,PASS,PRD000007,B00007,2028-08,SKU:PRD000007;LOT:B00007;EXP:2028-08,QR,true,565829
+test_007_wrong_batch.png,package_07_qr.png,wrong_batch,REVIEW,PRD000007,WRONG99,2028-08,SKU:PRD000007;LOT:B00007;EXP:2028-08,QR,true,133971
+test_007_damaged_code.png,package_07_qr.png,damaged_code,REVIEW,PRD000007,B00007,2028-08,SKU:PRD000007;LOT:B00007;EXP:2028-08,QR,false,87223
+test_008_lighting.png,package_08_datamatrix.png,lighting,PASS,PRD000008,B00008,2029-09,SKU:PRD000008;LOT:B00008;EXP:2029-09,Data Matrix,true,919924
+test_008_blur.png,package_08_datamatrix.png,blur,PASS,PRD000008,B00008,2029-09,SKU:PRD000008;LOT:B00008;EXP:2029-09,Data Matrix,true,359491
+test_008_rotation.png,package_08_datamatrix.png,rotation,PASS,PRD000008,B00008,2029-09,SKU:PRD000008;LOT:B00008;EXP:2029-09,Data Matrix,true,892868
+test_008_wrong_expiry.png,package_08_datamatrix.png,wrong_expiry,REVIEW,PRD000008,B00008,2033-01,SKU:PRD000008;LOT:B00008;EXP:2029-09,Data Matrix,true,289790
+test_008_damaged_code.png,package_08_datamatrix.png,damaged_code,REVIEW,PRD000008,B00008,2029-09,SKU:PRD000008;LOT:B00008;EXP:2029-09,Data Matrix,false,623768
+test_009_lighting.png,package_09_qr.png,lighting,PASS,PRD000009,B00009,2027-10,SKU:PRD000009;LOT:B00009;EXP:2027-10,QR,true,603088
+test_009_blur.png,package_09_qr.png,blur,PASS,PRD000009,B00009,2027-10,SKU:PRD000009;LOT:B00009;EXP:2027-10,QR,true,742879
+test_009_rotation.png,package_09_qr.png,rotation,PASS,PRD000009,B00009,2027-10,SKU:PRD000009;LOT:B00009;EXP:2027-10,QR,true,684841
+test_009_wrong_batch.png,package_09_qr.png,wrong_batch,REVIEW,PRD000009,WRONG99,2027-10,SKU:PRD000009;LOT:B00009;EXP:2027-10,QR,true,472842
+test_009_damaged_code.png,package_09_qr.png,damaged_code,REVIEW,PRD000009,B00009,2027-10,SKU:PRD000009;LOT:B00009;EXP:2027-10,QR,false,649833
+test_010_lighting.png,package_10_datamatrix_missing_exp.png,lighting,REVIEW,PRD000010,B00010,,SKU:PRD000010;LOT:B00010;EXP:2028-11,Data Matrix,true,65597
+test_010_blur.png,package_10_datamatrix_missing_exp.png,blur,REVIEW,PRD000010,B00010,,SKU:PRD000010;LOT:B00010;EXP:2028-11,Data Matrix,true,305249
+test_010_rotation.png,package_10_datamatrix_missing_exp.png,rotation,REVIEW,PRD000010,B00010,,SKU:PRD000010;LOT:B00010;EXP:2028-11,Data Matrix,true,736590
+test_010_wrong_expiry.png,package_10_datamatrix_missing_exp.png,wrong_expiry,REVIEW,PRD000010,B00010,2033-01,SKU:PRD000010;LOT:B00010;EXP:2028-11,Data Matrix,true,768190
+test_010_damaged_code.png,package_10_datamatrix_missing_exp.png,damaged_code,REVIEW,PRD000010,B00010,,SKU:PRD000010;LOT:B00010;EXP:2028-11,Data Matrix,false,99485
+test_011_lighting.png,package_11_qr.png,lighting,PASS,PRD000011,B00011,2029-12,SKU:PRD000011;LOT:B00011;EXP:2029-12,QR,true,92192
+test_011_blur.png,package_11_qr.png,blur,PASS,PRD000011,B00011,2029-12,SKU:PRD000011;LOT:B00011;EXP:2029-12,QR,true,409887
+test_011_rotation.png,package_11_qr.png,rotation,PASS,PRD000011,B00011,2029-12,SKU:PRD000011;LOT:B00011;EXP:2029-12,QR,true,870544
+test_011_wrong_batch.png,package_11_qr.png,wrong_batch,REVIEW,PRD000011,WRONG99,2029-12,SKU:PRD000011;LOT:B00011;EXP:2029-12,QR,true,479992
+test_011_damaged_code.png,package_11_qr.png,damaged_code,REVIEW,PRD000011,B00011,2029-12,SKU:PRD000011;LOT:B00011;EXP:2029-12,QR,false,575491
+test_012_lighting.png,package_12_datamatrix.png,lighting,PASS,PRD000012,B00012,2027-01,SKU:PRD000012;LOT:B00012;EXP:2027-01,Data Matrix,true,910099
+test_012_blur.png,package_12_datamatrix.png,blur,PASS,PRD000012,B00012,2027-01,SKU:PRD000012;LOT:B00012;EXP:2027-01,Data Matrix,true,998097
+test_012_rotation.png,package_12_datamatrix.png,rotation,PASS,PRD000012,B00012,2027-01,SKU:PRD000012;LOT:B00012;EXP:2027-01,Data Matrix,true,353124
+test_012_wrong_expiry.png,package_12_datamatrix.png,wrong_expiry,REVIEW,PRD000012,B00012,2033-01,SKU:PRD000012;LOT:B00012;EXP:2027-01,Data Matrix,true,75288
+test_012_damaged_code.png,package_12_datamatrix.png,damaged_code,REVIEW,PRD000012,B00012,2027-01,SKU:PRD000012;LOT:B00012;EXP:2027-01,Data Matrix,false,306654
+test_013_lighting.png,package_13_qr.png,lighting,PASS,PRD000013,B00013,2028-02,SKU:PRD000013;LOT:B00013;EXP:2028-02,QR,true,642366
+test_013_blur.png,package_13_qr.png,blur,PASS,PRD000013,B00013,2028-02,SKU:PRD000013;LOT:B00013;EXP:2028-02,QR,true,35541
+test_013_rotation.png,package_13_qr.png,rotation,PASS,PRD000013,B00013,2028-02,SKU:PRD000013;LOT:B00013;EXP:2028-02,QR,true,5921
+test_013_wrong_batch.png,package_13_qr.png,wrong_batch,REVIEW,PRD000013,WRONG99,2028-02,SKU:PRD000013;LOT:B00013;EXP:2028-02,QR,true,306585
+test_013_damaged_code.png,package_13_qr.png,damaged_code,REVIEW,PRD000013,B00013,2028-02,SKU:PRD000013;LOT:B00013;EXP:2028-02,QR,false,774432
+test_014_lighting.png,package_14_datamatrix.png,lighting,PASS,PRD000014,B00014,2029-03,SKU:PRD000014;LOT:B00014;EXP:2029-03,Data Matrix,true,132678
+test_014_blur.png,package_14_datamatrix.png,blur,PASS,PRD000014,B00014,2029-03,SKU:PRD000014;LOT:B00014;EXP:2029-03,Data Matrix,true,425045
+test_014_rotation.png,package_14_datamatrix.png,rotation,PASS,PRD000014,B00014,2029-03,SKU:PRD000014;LOT:B00014;EXP:2029-03,Data Matrix,true,336828
+test_014_wrong_expiry.png,package_14_datamatrix.png,wrong_expiry,REVIEW,PRD000014,B00014,2033-01,SKU:PRD000014;LOT:B00014;EXP:2029-03,Data Matrix,true,596929
+test_014_damaged_code.png,package_14_datamatrix.png,damaged_code,REVIEW,PRD000014,B00014,2029-03,SKU:PRD000014;LOT:B00014;EXP:2029-03,Data Matrix,false,554136
+test_015_lighting.png,package_15_qr_missing_exp.png,lighting,REVIEW,PRD000015,B00015,,SKU:PRD000015;LOT:B00015;EXP:2027-04,QR,true,161111
+test_015_blur.png,package_15_qr_missing_exp.png,blur,REVIEW,PRD000015,B00015,,SKU:PRD000015;LOT:B00015;EXP:2027-04,QR,true,430553
+test_015_rotation.png,package_15_qr_missing_exp.png,rotation,REVIEW,PRD000015,B00015,,SKU:PRD000015;LOT:B00015;EXP:2027-04,QR,true,490088
+test_015_wrong_batch.png,package_15_qr_missing_exp.png,wrong_batch,REVIEW,PRD000015,WRONG99,,SKU:PRD000015;LOT:B00015;EXP:2027-04,QR,true,742034
+test_015_damaged_code.png,package_15_qr_missing_exp.png,damaged_code,REVIEW,PRD000015,B00015,,SKU:PRD000015;LOT:B00015;EXP:2027-04,QR,false,944728
+test_016_lighting.png,package_16_datamatrix.png,lighting,PASS,PRD000016,B00016,2028-05,SKU:PRD000016;LOT:B00016;EXP:2028-05,Data Matrix,true,77984
+test_016_blur.png,package_16_datamatrix.png,blur,PASS,PRD000016,B00016,2028-05,SKU:PRD000016;LOT:B00016;EXP:2028-05,Data Matrix,true,308153
+test_016_rotation.png,package_16_datamatrix.png,rotation,PASS,PRD000016,B00016,2028-05,SKU:PRD000016;LOT:B00016;EXP:2028-05,Data Matrix,true,871740
+test_016_wrong_expiry.png,package_16_datamatrix.png,wrong_expiry,REVIEW,PRD000016,B00016,2033-01,SKU:PRD000016;LOT:B00016;EXP:2028-05,Data Matrix,true,526079
+test_016_damaged_code.png,package_16_datamatrix.png,damaged_code,REVIEW,PRD000016,B00016,2028-05,SKU:PRD000016;LOT:B00016;EXP:2028-05,Data Matrix,false,42333
+test_017_lighting.png,package_17_qr.png,lighting,PASS,PRD000017,B00017,2029-06,SKU:PRD000017;LOT:B00017;EXP:2029-06,QR,true,926571
+test_017_blur.png,package_17_qr.png,blur,PASS,PRD000017,B00017,2029-06,SKU:PRD000017;LOT:B00017;EXP:2029-06,QR,true,420095
+test_017_rotation.png,package_17_qr.png,rotation,PASS,PRD000017,B00017,2029-06,SKU:PRD000017;LOT:B00017;EXP:2029-06,QR,true,545504
+test_017_wrong_batch.png,package_17_qr.png,wrong_batch,REVIEW,PRD000017,WRONG99,2029-06,SKU:PRD000017;LOT:B00017;EXP:2029-06,QR,true,983745
+test_017_damaged_code.png,package_17_qr.png,damaged_code,REVIEW,PRD000017,B00017,2029-06,SKU:PRD000017;LOT:B00017;EXP:2029-06,QR,false,267736
+test_018_lighting.png,package_18_datamatrix.png,lighting,PASS,PRD000018,B00018,2027-07,SKU:PRD000018;LOT:B00018;EXP:2027-07,Data Matrix,true,728868
+test_018_blur.png,package_18_datamatrix.png,blur,PASS,PRD000018,B00018,2027-07,SKU:PRD000018;LOT:B00018;EXP:2027-07,Data Matrix,true,82106
+test_018_rotation.png,package_18_datamatrix.png,rotation,PASS,PRD000018,B00018,2027-07,SKU:PRD000018;LOT:B00018;EXP:2027-07,Data Matrix,true,236239
+test_018_wrong_expiry.png,package_18_datamatrix.png,wrong_expiry,REVIEW,PRD000018,B00018,2033-01,SKU:PRD000018;LOT:B00018;EXP:2027-07,Data Matrix,true,332030
+test_018_damaged_code.png,package_18_datamatrix.png,damaged_code,REVIEW,PRD000018,B00018,2027-07,SKU:PRD000018;LOT:B00018;EXP:2027-07,Data Matrix,false,202794
+test_019_lighting.png,package_19_qr.png,lighting,PASS,PRD000019,B00019,2028-08,SKU:PRD000019;LOT:B00019;EXP:2028-08,QR,true,864611
+test_019_blur.png,package_19_qr.png,blur,PASS,PRD000019,B00019,2028-08,SKU:PRD000019;LOT:B00019;EXP:2028-08,QR,true,828022
+test_019_rotation.png,package_19_qr.png,rotation,PASS,PRD000019,B00019,2028-08,SKU:PRD000019;LOT:B00019;EXP:2028-08,QR,true,63731
+test_019_wrong_batch.png,package_19_qr.png,wrong_batch,REVIEW,PRD000019,WRONG99,2028-08,SKU:PRD000019;LOT:B00019;EXP:2028-08,QR,true,111585
+test_019_damaged_code.png,package_19_qr.png,damaged_code,REVIEW,PRD000019,B00019,2028-08,SKU:PRD000019;LOT:B00019;EXP:2028-08,QR,false,379940
+test_020_lighting.png,package_20_datamatrix_missing_exp.png,lighting,REVIEW,PRD000020,B00020,,SKU:PRD000020;LOT:B00020;EXP:2029-09,Data Matrix,true,452337
+test_020_blur.png,package_20_datamatrix_missing_exp.png,blur,REVIEW,PRD000020,B00020,,SKU:PRD000020;LOT:B00020;EXP:2029-09,Data Matrix,true,555221
+test_020_rotation.png,package_20_datamatrix_missing_exp.png,rotation,REVIEW,PRD000020,B00020,,SKU:PRD000020;LOT:B00020;EXP:2029-09,Data Matrix,true,42800
+test_020_wrong_expiry.png,package_20_datamatrix_missing_exp.png,wrong_expiry,REVIEW,PRD000020,B00020,2033-01,SKU:PRD000020;LOT:B00020;EXP:2029-09,Data Matrix,true,738151
+test_020_damaged_code.png,package_20_datamatrix_missing_exp.png,damaged_code,REVIEW,PRD000020,B00020,,SKU:PRD000020;LOT:B00020;EXP:2029-09,Data Matrix,false,501257
+test_021_lighting.png,package_21_qr.png,lighting,PASS,PRD000021,B00021,2027-10,SKU:PRD000021;LOT:B00021;EXP:2027-10,QR,true,194023
+test_021_blur.png,package_21_qr.png,blur,PASS,PRD000021,B00021,2027-10,SKU:PRD000021;LOT:B00021;EXP:2027-10,QR,true,360292
+test_021_rotation.png,package_21_qr.png,rotation,PASS,PRD000021,B00021,2027-10,SKU:PRD000021;LOT:B00021;EXP:2027-10,QR,true,910649
+test_021_wrong_batch.png,package_21_qr.png,wrong_batch,REVIEW,PRD000021,WRONG99,2027-10,SKU:PRD000021;LOT:B00021;EXP:2027-10,QR,true,940689
+test_021_damaged_code.png,package_21_qr.png,damaged_code,REVIEW,PRD000021,B00021,2027-10,SKU:PRD000021;LOT:B00021;EXP:2027-10,QR,false,432188
+test_022_lighting.png,package_22_datamatrix.png,lighting,PASS,PRD000022,B00022,2028-11,SKU:PRD000022;LOT:B00022;EXP:2028-11,Data Matrix,true,176663
+test_022_blur.png,package_22_datamatrix.png,blur,PASS,PRD000022,B00022,2028-11,SKU:PRD000022;LOT:B00022;EXP:2028-11,Data Matrix,true,759407
+test_022_rotation.png,package_22_datamatrix.png,rotation,PASS,PRD000022,B00022,2028-11,SKU:PRD000022;LOT:B00022;EXP:2028-11,Data Matrix,true,507679
+test_022_wrong_expiry.png,package_22_datamatrix.png,wrong_expiry,REVIEW,PRD000022,B00022,2033-01,SKU:PRD000022;LOT:B00022;EXP:2028-11,Data Matrix,true,506472
+test_022_damaged_code.png,package_22_datamatrix.png,damaged_code,REVIEW,PRD000022,B00022,2028-11,SKU:PRD000022;LOT:B00022;EXP:2028-11,Data Matrix,false,871266
+test_023_lighting.png,package_23_qr.png,lighting,PASS,PRD000023,B00023,2029-12,SKU:PRD000023;LOT:B00023;EXP:2029-12,QR,true,200190
+test_023_blur.png,package_23_qr.png,blur,PASS,PRD000023,B00023,2029-12,SKU:PRD000023;LOT:B00023;EXP:2029-12,QR,true,633732
+test_023_rotation.png,package_23_qr.png,rotation,PASS,PRD000023,B00023,2029-12,SKU:PRD000023;LOT:B00023;EXP:2029-12,QR,true,85090
+test_023_wrong_batch.png,package_23_qr.png,wrong_batch,REVIEW,PRD000023,WRONG99,2029-12,SKU:PRD000023;LOT:B00023;EXP:2029-12,QR,true,402993
+test_023_damaged_code.png,package_23_qr.png,damaged_code,REVIEW,PRD000023,B00023,2029-12,SKU:PRD000023;LOT:B00023;EXP:2029-12,QR,false,91115
+test_024_lighting.png,package_24_datamatrix.png,lighting,PASS,PRD000024,B00024,2027-01,SKU:PRD000024;LOT:B00024;EXP:2027-01,Data Matrix,true,607010
+test_024_blur.png,package_24_datamatrix.png,blur,PASS,PRD000024,B00024,2027-01,SKU:PRD000024;LOT:B00024;EXP:2027-01,Data Matrix,true,534893
+test_024_rotation.png,package_24_datamatrix.png,rotation,PASS,PRD000024,B00024,2027-01,SKU:PRD000024;LOT:B00024;EXP:2027-01,Data Matrix,true,95191
+test_024_wrong_expiry.png,package_24_datamatrix.png,wrong_expiry,REVIEW,PRD000024,B00024,2033-01,SKU:PRD000024;LOT:B00024;EXP:2027-01,Data Matrix,true,28702
+test_024_damaged_code.png,package_24_datamatrix.png,damaged_code,REVIEW,PRD000024,B00024,2027-01,SKU:PRD000024;LOT:B00024;EXP:2027-01,Data Matrix,false,336693
+test_025_lighting.png,package_25_qr_missing_exp.png,lighting,REVIEW,PRD000025,B00025,,SKU:PRD000025;LOT:B00025;EXP:2028-02,QR,true,899353
+test_025_blur.png,package_25_qr_missing_exp.png,blur,REVIEW,PRD000025,B00025,,SKU:PRD000025;LOT:B00025;EXP:2028-02,QR,true,172507
+test_025_rotation.png,package_25_qr_missing_exp.png,rotation,REVIEW,PRD000025,B00025,,SKU:PRD000025;LOT:B00025;EXP:2028-02,QR,true,241993
+test_025_wrong_batch.png,package_25_qr_missing_exp.png,wrong_batch,REVIEW,PRD000025,WRONG99,,SKU:PRD000025;LOT:B00025;EXP:2028-02,QR,true,148127
+test_025_damaged_code.png,package_25_qr_missing_exp.png,damaged_code,REVIEW,PRD000025,B00025,,SKU:PRD000025;LOT:B00025;EXP:2028-02,QR,false,277692
+test_026_lighting.png,package_26_datamatrix.png,lighting,PASS,PRD000026,B00026,2029-03,SKU:PRD000026;LOT:B00026;EXP:2029-03,Data Matrix,true,493930
+test_026_blur.png,package_26_datamatrix.png,blur,PASS,PRD000026,B00026,2029-03,SKU:PRD000026;LOT:B00026;EXP:2029-03,Data Matrix,true,475708
+test_026_rotation.png,package_26_datamatrix.png,rotation,PASS,PRD000026,B00026,2029-03,SKU:PRD000026;LOT:B00026;EXP:2029-03,Data Matrix,true,268430
+test_026_wrong_expiry.png,package_26_datamatrix.png,wrong_expiry,REVIEW,PRD000026,B00026,2033-01,SKU:PRD000026;LOT:B00026;EXP:2029-03,Data Matrix,true,24932
+test_026_damaged_code.png,package_26_datamatrix.png,damaged_code,REVIEW,PRD000026,B00026,2029-03,SKU:PRD000026;LOT:B00026;EXP:2029-03,Data Matrix,false,999691
+test_027_lighting.png,package_27_qr.png,lighting,PASS,PRD000027,B00027,2027-04,SKU:PRD000027;LOT:B00027;EXP:2027-04,QR,true,782923
+test_027_blur.png,package_27_qr.png,blur,PASS,PRD000027,B00027,2027-04,SKU:PRD000027;LOT:B00027;EXP:2027-04,QR,true,159902
+test_027_rotation.png,package_27_qr.png,rotation,PASS,PRD000027,B00027,2027-04,SKU:PRD000027;LOT:B00027;EXP:2027-04,QR,true,233111
+test_027_wrong_batch.png,package_27_qr.png,wrong_batch,REVIEW,PRD000027,WRONG99,2027-04,SKU:PRD000027;LOT:B00027;EXP:2027-04,QR,true,855284
+test_027_damaged_code.png,package_27_qr.png,damaged_code,REVIEW,PRD000027,B00027,2027-04,SKU:PRD000027;LOT:B00027;EXP:2027-04,QR,false,445273
+test_028_lighting.png,package_28_datamatrix.png,lighting,PASS,PRD000028,B00028,2028-05,SKU:PRD000028;LOT:B00028;EXP:2028-05,Data Matrix,true,32761
+test_028_blur.png,package_28_datamatrix.png,blur,PASS,PRD000028,B00028,2028-05,SKU:PRD000028;LOT:B00028;EXP:2028-05,Data Matrix,true,484425
+test_028_rotation.png,package_28_datamatrix.png,rotation,PASS,PRD000028,B00028,2028-05,SKU:PRD000028;LOT:B00028;EXP:2028-05,Data Matrix,true,607455
+test_028_wrong_expiry.png,package_28_datamatrix.png,wrong_expiry,REVIEW,PRD000028,B00028,2033-01,SKU:PRD000028;LOT:B00028;EXP:2028-05,Data Matrix,true,13247
+test_028_damaged_code.png,package_28_datamatrix.png,damaged_code,REVIEW,PRD000028,B00028,2028-05,SKU:PRD000028;LOT:B00028;EXP:2028-05,Data Matrix,false,241722
+test_029_lighting.png,package_29_qr.png,lighting,PASS,PRD000029,B00029,2029-06,SKU:PRD000029;LOT:B00029;EXP:2029-06,QR,true,790439
+test_029_blur.png,package_29_qr.png,blur,PASS,PRD000029,B00029,2029-06,SKU:PRD000029;LOT:B00029;EXP:2029-06,QR,true,765296
+test_029_rotation.png,package_29_qr.png,rotation,PASS,PRD000029,B00029,2029-06,SKU:PRD000029;LOT:B00029;EXP:2029-06,QR,true,819112
+test_029_wrong_batch.png,package_29_qr.png,wrong_batch,REVIEW,PRD000029,WRONG99,2029-06,SKU:PRD000029;LOT:B00029;EXP:2029-06,QR,true,120491
+test_029_damaged_code.png,package_29_qr.png,damaged_code,REVIEW,PRD000029,B00029,2029-06,SKU:PRD000029;LOT:B00029;EXP:2029-06,QR,false,838081
+test_030_lighting.png,package_30_datamatrix_missing_exp.png,lighting,REVIEW,PRD000030,B00030,,SKU:PRD000030;LOT:B00030;EXP:2027-07,Data Matrix,true,61431
+test_030_blur.png,package_30_datamatrix_missing_exp.png,blur,REVIEW,PRD000030,B00030,,SKU:PRD000030;LOT:B00030;EXP:2027-07,Data Matrix,true,174487
+test_030_rotation.png,package_30_datamatrix_missing_exp.png,rotation,REVIEW,PRD000030,B00030,,SKU:PRD000030;LOT:B00030;EXP:2027-07,Data Matrix,true,16912
+test_030_wrong_expiry.png,package_30_datamatrix_missing_exp.png,wrong_expiry,REVIEW,PRD000030,B00030,2033-01,SKU:PRD000030;LOT:B00030;EXP:2027-07,Data Matrix,true,143075
+test_030_damaged_code.png,package_30_datamatrix_missing_exp.png,damaged_code,REVIEW,PRD000030,B00030,,SKU:PRD000030;LOT:B00030;EXP:2027-07,Data Matrix,false,208537
+test_031_lighting.png,package_31_qr.png,lighting,PASS,PRD000031,B00031,2028-08,SKU:PRD000031;LOT:B00031;EXP:2028-08,QR,true,790806
+test_031_blur.png,package_31_qr.png,blur,PASS,PRD000031,B00031,2028-08,SKU:PRD000031;LOT:B00031;EXP:2028-08,QR,true,858953
+test_031_rotation.png,package_31_qr.png,rotation,PASS,PRD000031,B00031,2028-08,SKU:PRD000031;LOT:B00031;EXP:2028-08,QR,true,805115
+test_031_wrong_batch.png,package_31_qr.png,wrong_batch,REVIEW,PRD000031,WRONG99,2028-08,SKU:PRD000031;LOT:B00031;EXP:2028-08,QR,true,426940
+test_031_damaged_code.png,package_31_qr.png,damaged_code,REVIEW,PRD000031,B00031,2028-08,SKU:PRD000031;LOT:B00031;EXP:2028-08,QR,false,944594
+test_032_lighting.png,package_32_datamatrix.png,lighting,PASS,PRD000032,B00032,2029-09,SKU:PRD000032;LOT:B00032;EXP:2029-09,Data Matrix,true,188788
+test_032_blur.png,package_32_datamatrix.png,blur,PASS,PRD000032,B00032,2029-09,SKU:PRD000032;LOT:B00032;EXP:2029-09,Data Matrix,true,521039
+test_032_rotation.png,package_32_datamatrix.png,rotation,PASS,PRD000032,B00032,2029-09,SKU:PRD000032;LOT:B00032;EXP:2029-09,Data Matrix,true,8650
+test_032_wrong_expiry.png,package_32_datamatrix.png,wrong_expiry,REVIEW,PRD000032,B00032,2033-01,SKU:PRD000032;LOT:B00032;EXP:2029-09,Data Matrix,true,960353
+test_032_damaged_code.png,package_32_datamatrix.png,damaged_code,REVIEW,PRD000032,B00032,2029-09,SKU:PRD000032;LOT:B00032;EXP:2029-09,Data Matrix,false,208617
+test_033_lighting.png,package_33_qr.png,lighting,PASS,PRD000033,B00033,2027-10,SKU:PRD000033;LOT:B00033;EXP:2027-10,QR,true,646575
+test_033_blur.png,package_33_qr.png,blur,PASS,PRD000033,B00033,2027-10,SKU:PRD000033;LOT:B00033;EXP:2027-10,QR,true,576676
+test_033_rotation.png,package_33_qr.png,rotation,PASS,PRD000033,B00033,2027-10,SKU:PRD000033;LOT:B00033;EXP:2027-10,QR,true,621309
+test_033_wrong_batch.png,package_33_qr.png,wrong_batch,REVIEW,PRD000033,WRONG99,2027-10,SKU:PRD000033;LOT:B00033;EXP:2027-10,QR,true,325541
+test_033_damaged_code.png,package_33_qr.png,damaged_code,REVIEW,PRD000033,B00033,2027-10,SKU:PRD000033;LOT:B00033;EXP:2027-10,QR,false,181343
+test_034_lighting.png,package_34_datamatrix.png,lighting,PASS,PRD000034,B00034,2028-11,SKU:PRD000034;LOT:B00034;EXP:2028-11,Data Matrix,true,770645
+test_034_blur.png,package_34_datamatrix.png,blur,PASS,PRD000034,B00034,2028-11,SKU:PRD000034;LOT:B00034;EXP:2028-11,Data Matrix,true,696579
+test_034_rotation.png,package_34_datamatrix.png,rotation,PASS,PRD000034,B00034,2028-11,SKU:PRD000034;LOT:B00034;EXP:2028-11,Data Matrix,true,237788
+test_034_wrong_expiry.png,package_34_datamatrix.png,wrong_expiry,REVIEW,PRD000034,B00034,2033-01,SKU:PRD000034;LOT:B00034;EXP:2028-11,Data Matrix,true,635985
+test_034_damaged_code.png,package_34_datamatrix.png,damaged_code,REVIEW,PRD000034,B00034,2028-11,SKU:PRD000034;LOT:B00034;EXP:2028-11,Data Matrix,false,747929
+test_035_lighting.png,package_35_qr_missing_exp.png,lighting,REVIEW,PRD000035,B00035,,SKU:PRD000035;LOT:B00035;EXP:2029-12,QR,true,858562
+test_035_blur.png,package_35_qr_missing_exp.png,blur,REVIEW,PRD000035,B00035,,SKU:PRD000035;LOT:B00035;EXP:2029-12,QR,true,877582
+test_035_rotation.png,package_35_qr_missing_exp.png,rotation,REVIEW,PRD000035,B00035,,SKU:PRD000035;LOT:B00035;EXP:2029-12,QR,true,550546
+test_035_wrong_batch.png,package_35_qr_missing_exp.png,wrong_batch,REVIEW,PRD000035,WRONG99,,SKU:PRD000035;LOT:B00035;EXP:2029-12,QR,true,447275
+test_035_damaged_code.png,package_35_qr_missing_exp.png,damaged_code,REVIEW,PRD000035,B00035,,SKU:PRD000035;LOT:B00035;EXP:2029-12,QR,false,264825
+test_036_lighting.png,package_36_datamatrix.png,lighting,PASS,PRD000036,B00036,2027-01,SKU:PRD000036;LOT:B00036;EXP:2027-01,Data Matrix,true,385056
+test_036_blur.png,package_36_datamatrix.png,blur,PASS,PRD000036,B00036,2027-01,SKU:PRD000036;LOT:B00036;EXP:2027-01,Data Matrix,true,928042
+test_036_rotation.png,package_36_datamatrix.png,rotation,PASS,PRD000036,B00036,2027-01,SKU:PRD000036;LOT:B00036;EXP:2027-01,Data Matrix,true,470472
+test_036_wrong_expiry.png,package_36_datamatrix.png,wrong_expiry,REVIEW,PRD000036,B00036,2033-01,SKU:PRD000036;LOT:B00036;EXP:2027-01,Data Matrix,true,155626
+test_036_damaged_code.png,package_36_datamatrix.png,damaged_code,REVIEW,PRD000036,B00036,2027-01,SKU:PRD000036;LOT:B00036;EXP:2027-01,Data Matrix,false,588225
+test_037_lighting.png,package_37_qr.png,lighting,PASS,PRD000037,B00037,2028-02,SKU:PRD000037;LOT:B00037;EXP:2028-02,QR,true,360436
+test_037_blur.png,package_37_qr.png,blur,PASS,PRD000037,B00037,2028-02,SKU:PRD000037;LOT:B00037;EXP:2028-02,QR,true,1323
+test_037_rotation.png,package_37_qr.png,rotation,PASS,PRD000037,B00037,2028-02,SKU:PRD000037;LOT:B00037;EXP:2028-02,QR,true,101906
+test_037_wrong_batch.png,package_37_qr.png,wrong_batch,REVIEW,PRD000037,WRONG99,2028-02,SKU:PRD000037;LOT:B00037;EXP:2028-02,QR,true,209272
+test_037_damaged_code.png,package_37_qr.png,damaged_code,REVIEW,PRD000037,B00037,2028-02,SKU:PRD000037;LOT:B00037;EXP:2028-02,QR,false,830320
+test_038_lighting.png,package_38_datamatrix.png,lighting,PASS,PRD000038,B00038,2029-03,SKU:PRD000038;LOT:B00038;EXP:2029-03,Data Matrix,true,16623
+test_038_blur.png,package_38_datamatrix.png,blur,PASS,PRD000038,B00038,2029-03,SKU:PRD000038;LOT:B00038;EXP:2029-03,Data Matrix,true,606427
+test_038_rotation.png,package_38_datamatrix.png,rotation,PASS,PRD000038,B00038,2029-03,SKU:PRD000038;LOT:B00038;EXP:2029-03,Data Matrix,true,218833
+test_038_wrong_expiry.png,package_38_datamatrix.png,wrong_expiry,REVIEW,PRD000038,B00038,2033-01,SKU:PRD000038;LOT:B00038;EXP:2029-03,Data Matrix,true,837391
+test_038_damaged_code.png,package_38_datamatrix.png,damaged_code,REVIEW,PRD000038,B00038,2029-03,SKU:PRD000038;LOT:B00038;EXP:2029-03,Data Matrix,false,457995
+test_039_lighting.png,package_39_qr.png,lighting,PASS,PRD000039,B00039,2027-04,SKU:PRD000039;LOT:B00039;EXP:2027-04,QR,true,715893
+test_039_blur.png,package_39_qr.png,blur,PASS,PRD000039,B00039,2027-04,SKU:PRD000039;LOT:B00039;EXP:2027-04,QR,true,570447
+test_039_rotation.png,package_39_qr.png,rotation,PASS,PRD000039,B00039,2027-04,SKU:PRD000039;LOT:B00039;EXP:2027-04,QR,true,808407
+test_039_wrong_batch.png,package_39_qr.png,wrong_batch,REVIEW,PRD000039,WRONG99,2027-04,SKU:PRD000039;LOT:B00039;EXP:2027-04,QR,true,472137
+test_039_damaged_code.png,package_39_qr.png,damaged_code,REVIEW,PRD000039,B00039,2027-04,SKU:PRD000039;LOT:B00039;EXP:2027-04,QR,false,852166
+test_040_lighting.png,package_40_datamatrix_missing_exp.png,lighting,REVIEW,PRD000040,B00040,,SKU:PRD000040;LOT:B00040;EXP:2028-05,Data Matrix,true,168897
+test_040_blur.png,package_40_datamatrix_missing_exp.png,blur,REVIEW,PRD000040,B00040,,SKU:PRD000040;LOT:B00040;EXP:2028-05,Data Matrix,true,340306
+test_040_rotation.png,package_40_datamatrix_missing_exp.png,rotation,REVIEW,PRD000040,B00040,,SKU:PRD000040;LOT:B00040;EXP:2028-05,Data Matrix,true,599860
+test_040_wrong_expiry.png,package_40_datamatrix_missing_exp.png,wrong_expiry,REVIEW,PRD000040,B00040,2033-01,SKU:PRD000040;LOT:B00040;EXP:2028-05,Data Matrix,true,784339
+test_040_damaged_code.png,package_40_datamatrix_missing_exp.png,damaged_code,REVIEW,PRD000040,B00040,,SKU:PRD000040;LOT:B00040;EXP:2028-05,Data Matrix,false,429245
+test_041_lighting.png,package_41_qr.png,lighting,PASS,PRD000041,B00041,2029-06,SKU:PRD000041;LOT:B00041;EXP:2029-06,QR,true,948082
+test_041_blur.png,package_41_qr.png,blur,PASS,PRD000041,B00041,2029-06,SKU:PRD000041;LOT:B00041;EXP:2029-06,QR,true,481460
+test_041_rotation.png,package_41_qr.png,rotation,PASS,PRD000041,B00041,2029-06,SKU:PRD000041;LOT:B00041;EXP:2029-06,QR,true,942836
+test_041_wrong_batch.png,package_41_qr.png,wrong_batch,REVIEW,PRD000041,WRONG99,2029-06,SKU:PRD000041;LOT:B00041;EXP:2029-06,QR,true,472209
+test_041_damaged_code.png,package_41_qr.png,damaged_code,REVIEW,PRD000041,B00041,2029-06,SKU:PRD000041;LOT:B00041;EXP:2029-06,QR,false,705047
+test_042_lighting.png,package_42_datamatrix.png,lighting,PASS,PRD000042,B00042,2027-07,SKU:PRD000042;LOT:B00042;EXP:2027-07,Data Matrix,true,607033
+test_042_blur.png,package_42_datamatrix.png,blur,PASS,PRD000042,B00042,2027-07,SKU:PRD000042;LOT:B00042;EXP:2027-07,Data Matrix,true,899683
+test_042_rotation.png,package_42_datamatrix.png,rotation,PASS,PRD000042,B00042,2027-07,SKU:PRD000042;LOT:B00042;EXP:2027-07,Data Matrix,true,332413
+test_042_wrong_expiry.png,package_42_datamatrix.png,wrong_expiry,REVIEW,PRD000042,B00042,2033-01,SKU:PRD000042;LOT:B00042;EXP:2027-07,Data Matrix,true,418861
+test_042_damaged_code.png,package_42_datamatrix.png,damaged_code,REVIEW,PRD000042,B00042,2027-07,SKU:PRD000042;LOT:B00042;EXP:2027-07,Data Matrix,false,38632
+test_043_lighting.png,package_43_qr.png,lighting,PASS,PRD000043,B00043,2028-08,SKU:PRD000043;LOT:B00043;EXP:2028-08,QR,true,360421
+test_043_blur.png,package_43_qr.png,blur,PASS,PRD000043,B00043,2028-08,SKU:PRD000043;LOT:B00043;EXP:2028-08,QR,true,901411
+test_043_rotation.png,package_43_qr.png,rotation,PASS,PRD000043,B00043,2028-08,SKU:PRD000043;LOT:B00043;EXP:2028-08,QR,true,135872
+test_043_wrong_batch.png,package_43_qr.png,wrong_batch,REVIEW,PRD000043,WRONG99,2028-08,SKU:PRD000043;LOT:B00043;EXP:2028-08,QR,true,710904
+test_043_damaged_code.png,package_43_qr.png,damaged_code,REVIEW,PRD000043,B00043,2028-08,SKU:PRD000043;LOT:B00043;EXP:2028-08,QR,false,103468
+test_044_lighting.png,package_44_datamatrix.png,lighting,PASS,PRD000044,B00044,2029-09,SKU:PRD000044;LOT:B00044;EXP:2029-09,Data Matrix,true,948634
+test_044_blur.png,package_44_datamatrix.png,blur,PASS,PRD000044,B00044,2029-09,SKU:PRD000044;LOT:B00044;EXP:2029-09,Data Matrix,true,453649
+test_044_rotation.png,package_44_datamatrix.png,rotation,PASS,PRD000044,B00044,2029-09,SKU:PRD000044;LOT:B00044;EXP:2029-09,Data Matrix,true,178523
+test_044_wrong_expiry.png,package_44_datamatrix.png,wrong_expiry,REVIEW,PRD000044,B00044,2033-01,SKU:PRD000044;LOT:B00044;EXP:2029-09,Data Matrix,true,889765
+test_044_damaged_code.png,package_44_datamatrix.png,damaged_code,REVIEW,PRD000044,B00044,2029-09,SKU:PRD000044;LOT:B00044;EXP:2029-09,Data Matrix,false,243602
+test_045_lighting.png,package_45_qr_missing_exp.png,lighting,REVIEW,PRD000045,B00045,,SKU:PRD000045;LOT:B00045;EXP:2027-10,QR,true,890508
+test_045_blur.png,package_45_qr_missing_exp.png,blur,REVIEW,PRD000045,B00045,,SKU:PRD000045;LOT:B00045;EXP:2027-10,QR,true,490767
+test_045_rotation.png,package_45_qr_missing_exp.png,rotation,REVIEW,PRD000045,B00045,,SKU:PRD000045;LOT:B00045;EXP:2027-10,QR,true,20679
+test_045_wrong_batch.png,package_45_qr_missing_exp.png,wrong_batch,REVIEW,PRD000045,WRONG99,,SKU:PRD000045;LOT:B00045;EXP:2027-10,QR,true,780046
+test_045_damaged_code.png,package_45_qr_missing_exp.png,damaged_code,REVIEW,PRD000045,B00045,,SKU:PRD000045;LOT:B00045;EXP:2027-10,QR,false,122058
+test_046_lighting.png,package_46_datamatrix.png,lighting,PASS,PRD000046,B00046,2028-11,SKU:PRD000046;LOT:B00046;EXP:2028-11,Data Matrix,true,526497
+test_046_blur.png,package_46_datamatrix.png,blur,PASS,PRD000046,B00046,2028-11,SKU:PRD000046;LOT:B00046;EXP:2028-11,Data Matrix,true,420189
+test_046_rotation.png,package_46_datamatrix.png,rotation,PASS,PRD000046,B00046,2028-11,SKU:PRD000046;LOT:B00046;EXP:2028-11,Data Matrix,true,87459
+test_046_wrong_expiry.png,package_46_datamatrix.png,wrong_expiry,REVIEW,PRD000046,B00046,2033-01,SKU:PRD000046;LOT:B00046;EXP:2028-11,Data Matrix,true,792481
+test_046_damaged_code.png,package_46_datamatrix.png,damaged_code,REVIEW,PRD000046,B00046,2028-11,SKU:PRD000046;LOT:B00046;EXP:2028-11,Data Matrix,false,419991
+test_047_lighting.png,package_47_qr.png,lighting,PASS,PRD000047,B00047,2029-12,SKU:PRD000047;LOT:B00047;EXP:2029-12,QR,true,204064
+test_047_blur.png,package_47_qr.png,blur,PASS,PRD000047,B00047,2029-12,SKU:PRD000047;LOT:B00047;EXP:2029-12,QR,true,103201
+test_047_rotation.png,package_47_qr.png,rotation,PASS,PRD000047,B00047,2029-12,SKU:PRD000047;LOT:B00047;EXP:2029-12,QR,true,97027
+test_047_wrong_batch.png,package_47_qr.png,wrong_batch,REVIEW,PRD000047,WRONG99,2029-12,SKU:PRD000047;LOT:B00047;EXP:2029-12,QR,true,258983
+test_047_damaged_code.png,package_47_qr.png,damaged_code,REVIEW,PRD000047,B00047,2029-12,SKU:PRD000047;LOT:B00047;EXP:2029-12,QR,false,630937
+test_048_lighting.png,package_48_datamatrix.png,lighting,PASS,PRD000048,B00048,2027-01,SKU:PRD000048;LOT:B00048;EXP:2027-01,Data Matrix,true,4956
+test_048_blur.png,package_48_datamatrix.png,blur,PASS,PRD000048,B00048,2027-01,SKU:PRD000048;LOT:B00048;EXP:2027-01,Data Matrix,true,178253
+test_048_rotation.png,package_48_datamatrix.png,rotation,PASS,PRD000048,B00048,2027-01,SKU:PRD000048;LOT:B00048;EXP:2027-01,Data Matrix,true,974784
+test_048_wrong_expiry.png,package_48_datamatrix.png,wrong_expiry,REVIEW,PRD000048,B00048,2033-01,SKU:PRD000048;LOT:B00048;EXP:2027-01,Data Matrix,true,70667
+test_048_damaged_code.png,package_48_datamatrix.png,damaged_code,REVIEW,PRD000048,B00048,2027-01,SKU:PRD000048;LOT:B00048;EXP:2027-01,Data Matrix,false,609908
+test_049_lighting.png,package_49_qr.png,lighting,PASS,PRD000049,B00049,2028-02,SKU:PRD000049;LOT:B00049;EXP:2028-02,QR,true,135531
+test_049_blur.png,package_49_qr.png,blur,PASS,PRD000049,B00049,2028-02,SKU:PRD000049;LOT:B00049;EXP:2028-02,QR,true,884441
+test_049_rotation.png,package_49_qr.png,rotation,PASS,PRD000049,B00049,2028-02,SKU:PRD000049;LOT:B00049;EXP:2028-02,QR,true,633328
+test_049_wrong_batch.png,package_49_qr.png,wrong_batch,REVIEW,PRD000049,WRONG99,2028-02,SKU:PRD000049;LOT:B00049;EXP:2028-02,QR,true,480426
+test_049_damaged_code.png,package_49_qr.png,damaged_code,REVIEW,PRD000049,B00049,2028-02,SKU:PRD000049;LOT:B00049;EXP:2028-02,QR,false,364799
+test_050_lighting.png,package_50_datamatrix_missing_exp.png,lighting,REVIEW,PRD000050,B00050,,SKU:PRD000050;LOT:B00050;EXP:2029-03,Data Matrix,true,650895
+test_050_blur.png,package_50_datamatrix_missing_exp.png,blur,REVIEW,PRD000050,B00050,,SKU:PRD000050;LOT:B00050;EXP:2029-03,Data Matrix,true,516678
+test_050_rotation.png,package_50_datamatrix_missing_exp.png,rotation,REVIEW,PRD000050,B00050,,SKU:PRD000050;LOT:B00050;EXP:2029-03,Data Matrix,true,866909
+test_050_wrong_expiry.png,package_50_datamatrix_missing_exp.png,wrong_expiry,REVIEW,PRD000050,B00050,2033-01,SKU:PRD000050;LOT:B00050;EXP:2029-03,Data Matrix,true,35793
+test_050_damaged_code.png,package_50_datamatrix_missing_exp.png,damaged_code,REVIEW,PRD000050,B00050,,SKU:PRD000050;LOT:B00050;EXP:2029-03,Data Matrix,false,524816

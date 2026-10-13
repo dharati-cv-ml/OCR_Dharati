@@ -1,0 +1,916 @@
+{
+  "summary": {
+    "dataset": "synthetic benchmark_50",
+    "images": 50,
+    "field_correct": 150,
+    "field_total": 150,
+    "field_accuracy_percent": 100.0,
+    "per_field_accuracy_percent": {
+      "product_code": 100.0,
+      "batch": 100.0,
+      "expiry": 100.0
+    }
+  },
+  "results": [
+    {
+      "filename": "package_01_qr.png",
+      "expected": {
+        "product_code": "PRD000001",
+        "batch": "B00001",
+        "expiry": "2028-02"
+      },
+      "observed": {
+        "product_code": "PRD000001",
+        "batch": "B00001",
+        "expiry": "2028-02"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_02_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000002",
+        "batch": "B00002",
+        "expiry": "2029-03"
+      },
+      "observed": {
+        "product_code": "PRD000002",
+        "batch": "B00002",
+        "expiry": "2029-03"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_03_qr.png",
+      "expected": {
+        "product_code": "PRD000003",
+        "batch": "B00003",
+        "expiry": "2027-04"
+      },
+      "observed": {
+        "product_code": "PRD000003",
+        "batch": "B00003",
+        "expiry": "2027-04"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_04_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000004",
+        "batch": "B00004",
+        "expiry": "2028-05"
+      },
+      "observed": {
+        "product_code": "PRD000004",
+        "batch": "B00004",
+        "expiry": "2028-05"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_05_qr_missing_exp.png",
+      "expected": {
+        "product_code": "PRD000005",
+        "batch": "B00005",
+        "expiry": ""
+      },
+      "observed": {
+        "product_code": "PRD000005",
+        "batch": "B00005",
+        "expiry": null
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_06_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000006",
+        "batch": "B00006",
+        "expiry": "2027-07"
+      },
+      "observed": {
+        "product_code": "PRD000006",
+        "batch": "B00006",
+        "expiry": "2027-07"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_07_qr.png",
+      "expected": {
+        "product_code": "PRD000007",
+        "batch": "B00007",
+        "expiry": "2028-08"
+      },
+      "observed": {
+        "product_code": "PRD000007",
+        "batch": "B00007",
+        "expiry": "2028-08"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_08_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000008",
+        "batch": "B00008",
+        "expiry": "2029-09"
+      },
+      "observed": {
+        "product_code": "PRD000008",
+        "batch": "B00008",
+        "expiry": "2029-09"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_09_qr.png",
+      "expected": {
+        "product_code": "PRD000009",
+        "batch": "B00009",
+        "expiry": "2027-10"
+      },
+      "observed": {
+        "product_code": "PRD000009",
+        "batch": "B00009",
+        "expiry": "2027-10"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_10_datamatrix_missing_exp.png",
+      "expected": {
+        "product_code": "PRD000010",
+        "batch": "B00010",
+        "expiry": ""
+      },
+      "observed": {
+        "product_code": "PRD000010",
+        "batch": "B00010",
+        "expiry": null
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_11_qr.png",
+      "expected": {
+        "product_code": "PRD000011",
+        "batch": "B00011",
+        "expiry": "2029-12"
+      },
+      "observed": {
+        "product_code": "PRD000011",
+        "batch": "B00011",
+        "expiry": "2029-12"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_12_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000012",
+        "batch": "B00012",
+        "expiry": "2027-01"
+      },
+      "observed": {
+        "product_code": "PRD000012",
+        "batch": "B00012",
+        "expiry": "2027-01"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_13_qr.png",
+      "expected": {
+        "product_code": "PRD000013",
+        "batch": "B00013",
+        "expiry": "2028-02"
+      },
+      "observed": {
+        "product_code": "PRD000013",
+        "batch": "B00013",
+        "expiry": "2028-02"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_14_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000014",
+        "batch": "B00014",
+        "expiry": "2029-03"
+      },
+      "observed": {
+        "product_code": "PRD000014",
+        "batch": "B00014",
+        "expiry": "2029-03"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_15_qr_missing_exp.png",
+      "expected": {
+        "product_code": "PRD000015",
+        "batch": "B00015",
+        "expiry": ""
+      },
+      "observed": {
+        "product_code": "PRD000015",
+        "batch": "B00015",
+        "expiry": null
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_16_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000016",
+        "batch": "B00016",
+        "expiry": "2028-05"
+      },
+      "observed": {
+        "product_code": "PRD000016",
+        "batch": "B00016",
+        "expiry": "2028-05"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_17_qr.png",
+      "expected": {
+        "product_code": "PRD000017",
+        "batch": "B00017",
+        "expiry": "2029-06"
+      },
+      "observed": {
+        "product_code": "PRD000017",
+        "batch": "B00017",
+        "expiry": "2029-06"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_18_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000018",
+        "batch": "B00018",
+        "expiry": "2027-07"
+      },
+      "observed": {
+        "product_code": "PRD000018",
+        "batch": "B00018",
+        "expiry": "2027-07"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_19_qr.png",
+      "expected": {
+        "product_code": "PRD000019",
+        "batch": "B00019",
+        "expiry": "2028-08"
+      },
+      "observed": {
+        "product_code": "PRD000019",
+        "batch": "B00019",
+        "expiry": "2028-08"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_20_datamatrix_missing_exp.png",
+      "expected": {
+        "product_code": "PRD000020",
+        "batch": "B00020",
+        "expiry": ""
+      },
+      "observed": {
+        "product_code": "PRD000020",
+        "batch": "B00020",
+        "expiry": null
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_21_qr.png",
+      "expected": {
+        "product_code": "PRD000021",
+        "batch": "B00021",
+        "expiry": "2027-10"
+      },
+      "observed": {
+        "product_code": "PRD000021",
+        "batch": "B00021",
+        "expiry": "2027-10"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_22_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000022",
+        "batch": "B00022",
+        "expiry": "2028-11"
+      },
+      "observed": {
+        "product_code": "PRD000022",
+        "batch": "B00022",
+        "expiry": "2028-11"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_23_qr.png",
+      "expected": {
+        "product_code": "PRD000023",
+        "batch": "B00023",
+        "expiry": "2029-12"
+      },
+      "observed": {
+        "product_code": "PRD000023",
+        "batch": "B00023",
+        "expiry": "2029-12"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_24_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000024",
+        "batch": "B00024",
+        "expiry": "2027-01"
+      },
+      "observed": {
+        "product_code": "PRD000024",
+        "batch": "B00024",
+        "expiry": "2027-01"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_25_qr_missing_exp.png",
+      "expected": {
+        "product_code": "PRD000025",
+        "batch": "B00025",
+        "expiry": ""
+      },
+      "observed": {
+        "product_code": "PRD000025",
+        "batch": "B00025",
+        "expiry": null
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_26_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000026",
+        "batch": "B00026",
+        "expiry": "2029-03"
+      },
+      "observed": {
+        "product_code": "PRD000026",
+        "batch": "B00026",
+        "expiry": "2029-03"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_27_qr.png",
+      "expected": {
+        "product_code": "PRD000027",
+        "batch": "B00027",
+        "expiry": "2027-04"
+      },
+      "observed": {
+        "product_code": "PRD000027",
+        "batch": "B00027",
+        "expiry": "2027-04"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_28_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000028",
+        "batch": "B00028",
+        "expiry": "2028-05"
+      },
+      "observed": {
+        "product_code": "PRD000028",
+        "batch": "B00028",
+        "expiry": "2028-05"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_29_qr.png",
+      "expected": {
+        "product_code": "PRD000029",
+        "batch": "B00029",
+        "expiry": "2029-06"
+      },
+      "observed": {
+        "product_code": "PRD000029",
+        "batch": "B00029",
+        "expiry": "2029-06"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_30_datamatrix_missing_exp.png",
+      "expected": {
+        "product_code": "PRD000030",
+        "batch": "B00030",
+        "expiry": ""
+      },
+      "observed": {
+        "product_code": "PRD000030",
+        "batch": "B00030",
+        "expiry": null
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_31_qr.png",
+      "expected": {
+        "product_code": "PRD000031",
+        "batch": "B00031",
+        "expiry": "2028-08"
+      },
+      "observed": {
+        "product_code": "PRD000031",
+        "batch": "B00031",
+        "expiry": "2028-08"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_32_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000032",
+        "batch": "B00032",
+        "expiry": "2029-09"
+      },
+      "observed": {
+        "product_code": "PRD000032",
+        "batch": "B00032",
+        "expiry": "2029-09"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_33_qr.png",
+      "expected": {
+        "product_code": "PRD000033",
+        "batch": "B00033",
+        "expiry": "2027-10"
+      },
+      "observed": {
+        "product_code": "PRD000033",
+        "batch": "B00033",
+        "expiry": "2027-10"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_34_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000034",
+        "batch": "B00034",
+        "expiry": "2028-11"
+      },
+      "observed": {
+        "product_code": "PRD000034",
+        "batch": "B00034",
+        "expiry": "2028-11"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_35_qr_missing_exp.png",
+      "expected": {
+        "product_code": "PRD000035",
+        "batch": "B00035",
+        "expiry": ""
+      },
+      "observed": {
+        "product_code": "PRD000035",
+        "batch": "B00035",
+        "expiry": null
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_36_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000036",
+        "batch": "B00036",
+        "expiry": "2027-01"
+      },
+      "observed": {
+        "product_code": "PRD000036",
+        "batch": "B00036",
+        "expiry": "2027-01"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_37_qr.png",
+      "expected": {
+        "product_code": "PRD000037",
+        "batch": "B00037",
+        "expiry": "2028-02"
+      },
+      "observed": {
+        "product_code": "PRD000037",
+        "batch": "B00037",
+        "expiry": "2028-02"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_38_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000038",
+        "batch": "B00038",
+        "expiry": "2029-03"
+      },
+      "observed": {
+        "product_code": "PRD000038",
+        "batch": "B00038",
+        "expiry": "2029-03"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_39_qr.png",
+      "expected": {
+        "product_code": "PRD000039",
+        "batch": "B00039",
+        "expiry": "2027-04"
+      },
+      "observed": {
+        "product_code": "PRD000039",
+        "batch": "B00039",
+        "expiry": "2027-04"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_40_datamatrix_missing_exp.png",
+      "expected": {
+        "product_code": "PRD000040",
+        "batch": "B00040",
+        "expiry": ""
+      },
+      "observed": {
+        "product_code": "PRD000040",
+        "batch": "B00040",
+        "expiry": null
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_41_qr.png",
+      "expected": {
+        "product_code": "PRD000041",
+        "batch": "B00041",
+        "expiry": "2029-06"
+      },
+      "observed": {
+        "product_code": "PRD000041",
+        "batch": "B00041",
+        "expiry": "2029-06"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_42_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000042",
+        "batch": "B00042",
+        "expiry": "2027-07"
+      },
+      "observed": {
+        "product_code": "PRD000042",
+        "batch": "B00042",
+        "expiry": "2027-07"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_43_qr.png",
+      "expected": {
+        "product_code": "PRD000043",
+        "batch": "B00043",
+        "expiry": "2028-08"
+      },
+      "observed": {
+        "product_code": "PRD000043",
+        "batch": "B00043",
+        "expiry": "2028-08"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_44_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000044",
+        "batch": "B00044",
+        "expiry": "2029-09"
+      },
+      "observed": {
+        "product_code": "PRD000044",
+        "batch": "B00044",
+        "expiry": "2029-09"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_45_qr_missing_exp.png",
+      "expected": {
+        "product_code": "PRD000045",
+        "batch": "B00045",
+        "expiry": ""
+      },
+      "observed": {
+        "product_code": "PRD000045",
+        "batch": "B00045",
+        "expiry": null
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_46_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000046",
+        "batch": "B00046",
+        "expiry": "2028-11"
+      },
+      "observed": {
+        "product_code": "PRD000046",
+        "batch": "B00046",
+        "expiry": "2028-11"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_47_qr.png",
+      "expected": {
+        "product_code": "PRD000047",
+        "batch": "B00047",
+        "expiry": "2029-12"
+      },
+      "observed": {
+        "product_code": "PRD000047",
+        "batch": "B00047",
+        "expiry": "2029-12"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_48_datamatrix.png",
+      "expected": {
+        "product_code": "PRD000048",
+        "batch": "B00048",
+        "expiry": "2027-01"
+      },
+      "observed": {
+        "product_code": "PRD000048",
+        "batch": "B00048",
+        "expiry": "2027-01"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_49_qr.png",
+      "expected": {
+        "product_code": "PRD000049",
+        "batch": "B00049",
+        "expiry": "2028-02"
+      },
+      "observed": {
+        "product_code": "PRD000049",
+        "batch": "B00049",
+        "expiry": "2028-02"
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    },
+    {
+      "filename": "package_50_datamatrix_missing_exp.png",
+      "expected": {
+        "product_code": "PRD000050",
+        "batch": "B00050",
+        "expiry": ""
+      },
+      "observed": {
+        "product_code": "PRD000050",
+        "batch": "B00050",
+        "expiry": null
+      },
+      "matches": {
+        "product_code": true,
+        "batch": true,
+        "expiry": true
+      }
+    }
+  ]
+}
